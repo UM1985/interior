@@ -1,0 +1,786 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    scrollbar-width: none;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: lightgoldenrodyellow;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 2px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+z-index: 1;
+}
+
+#logo {
+    color: mediumturquoise;
+    padding-right: 323px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav li a {
+    padding: 0px 47px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(210, 214, 250);
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+
+}
+
+#placeholder {
+    border-radius: 14px;
+    
+}
+
+.hero {
+    background-image: url(./images/slideshow/white-wall-living-room-have-sofa-decoration-3d-rendering.jpg);
+    height: 431px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 431px;
+}
+
+.fa-house-chimney-window {
+    color: red;
+    font-size: 20px;
+}
+
+#gretting {
+    color: rgb(28, 187, 28);
+    position: relative;
+    left: 598px;
+    top: 136px;
+    letter-spacing: 2px;
+}
+
+#slogan {
+    color: antiquewhite;
+    position: relative;
+    left: 9px;
+    top: 151px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#Search {
+    position: absolute;
+    left: 372px;
+    top: 307px;
+    word-spacing: 16px;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 599px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#find {
+    background-color: orangered;
+    color: antiquewhite;
+    height: 21px;
+    width: 68px;
+    letter-spacing: 2px;
+}
+
+#find:hover {
+    background-color: rgba(255, 68, 0, 0.555);
+}
+
+#align {
+    position: absolute;
+    top: 39px;
+    left: 29px;
+}
+
+.about {
+    position: relative;
+    top: 100px;
+}
+
+#color {
+    color: green;
+    padding-top: 84px;
+    padding-left: 68px;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+#intro {
+    color: gray;
+    display: flex;
+    float: left;
+    padding-left: 68px;
+    padding-top: 5px;
+    font-size: 60px;
+    letter-spacing: 1px;
+
+}
+
+#intro1 {
+    position: relative;
+    left: 8px;
+    padding-top: 5px;
+    font-size: 60px;
+    letter-spacing: 1px;
+
+}
+
+#time {
+    color: grey;
+    position: relative;
+    left: 71px;
+    top: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+#intro2 {
+    position: relative;
+    left: -105px;
+    padding-top: 29px;
+    color: gray;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.image1 {
+    background-image: url(./images/sharing-design-ideas-with-family.jpg);
+    height: 141px;
+    width: 147px;
+    background-repeat: no-repeat;
+    background-size: 165px 139px;
+    border-radius: 234px;
+    position: absolute;
+    left: 915px;
+    top: -118px;
+
+}
+
+.image2 {
+    background-image: url(./images/living-room-interior-wall-mockup-warm-tones-with-leather-sofa-which-is-kitchen-3d-rendering.jpg);
+    background-repeat: no-repeat;
+    height: 310px;
+    width: 299px;
+    background-size: 325px 314px;
+    border-radius: 234px;
+    position: absolute;
+    left: 1107px;
+    top: -232px;
+
+}
+
+.opening {
+    background-image: url(./images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg);
+    background-repeat: no-repeat;
+    height: 315px;
+    width: 100%;
+    background-size: 100% 390px;
+    position: relative;
+    top: 266px;
+    letter-spacing: 2px;
+}
+
+#hours {
+    position: absolute;
+    left: 54px;
+    top: 55px;
+    word-spacing: 16px;
+    background-color: #F75029;
+    height: 193px;
+    width: 318px;
+    text-align: center;
+    border-radius: 05%;
+}
+
+#shading {
+    position: absolute;
+    left: 65px;
+    top: 65px;
+    word-spacing: 16px;
+    background-color: whitesmoke;
+    height: 183px;
+    width: 307px;
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.fa-clock {
+    position: relative;
+    top: 27px;
+}
+
+#day1 {
+    position: relative;
+    top: 9px;
+    left: 20px;
+}
+
+#day2 {
+    position: relative;
+    top: 11px;
+    left: 20px;
+}
+
+#day3 {
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+.shop {
+    position: relative;
+    top: 386px;
+    left: 62px;
+    color: green;
+    letter-spacing: 2px;
+}
+
+#orange {
+    position: relative;
+    top: 389px;
+    left: 60px;
+    color: #F75029;
+    font-size: 50px
+}
+
+#black {
+    position: relative;
+    top: 332px;
+    left: 227px;
+    color: black;
+    font-size: 50px
+}
+
+.products {
+    background-image: url(./images/shop/minimal-bathroom-interior-design-with-wooden-furniture.jpg);
+    height: 290px;
+    width: 100%;
+    background-size: 500px 288px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 359px;
+    left: 63px;
+    border-radius: 10px;
+}
+
+
+#bathroom {
+    position: relative;
+    top: 295px;
+    left: 15px;
+    letter-spacing: 1px;
+}
+
+.din {
+    background-image: url(./images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg);
+    height: 290px;
+    width: 100%;
+    background-size: 500px 288px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -18px;
+    left: 609px;
+    border-radius: 10px;
+}
+
+#dining {
+    position: relative;
+    top: 296px;
+    left: 16px;
+    letter-spacing: 1px;
+
+}
+
+.living {
+    background-image: url(./images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg);
+    height: 288px;
+    width: 300px;
+    background-size: 300px 288px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 33px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+#room {
+    position: relative;
+    top: 295px;
+    left: 15px;
+    letter-spacing: 1px;
+
+}
+
+.chef {
+    background-image: url(./images/shop/concept-home-cooking-with-female-chef.jpg);
+    height: 288px;
+    width: 300px;
+    background-size: 300px 288px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -255px;
+    left: 451px;
+    border-radius: 10px;
+}
+
+#kitchen {
+    position: relative;
+    top: 295px;
+    left: 15px;
+    letter-spacing: 1px;
+
+}
+
+.childrens {
+    background-image: url(./images/shop/childrens-bed-nursery-cot-velvet-childrens-room.jpg);
+    /* display: inline-block; */
+    height: 288px;
+    width: 300px;
+    background-size: 300px 288px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -543px;
+    left: 855px;
+    border-radius: 10px;
+}
+
+#bedroom {
+    position: relative;
+    top: -540px;
+    left: 874px;
+    letter-spacing: 1px;
+}
+
+.number {
+    position: relative;
+    top: 50px;
+}
+
+.slide {
+    position: relative;
+    top: -563px;
+    left: 230px;
+}
+
+td:hover {
+    background-color: #F75029;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+
+.reviews {
+    background-color: #F9F9F9;
+    height: 641px;
+    width: 100%;
+    position: relative;
+    top: 871px;
+    left: 34px;
+}
+
+#end {
+    background-image: url(./images/WhatsApp\ Image\ 2024-08-26\ at\ 11.55.46\ AM.jpeg);
+    position: relative;
+    background-size: 100% 248px;
+    height: 248px;
+    width: 100%;
+    top: 309px;
+    left: 0px;
+
+}
+
+#customer {
+    color: #98CAB8;
+    position: relative;
+    top: 54px;
+    left: 19px;
+    letter-spacing: 2px;
+
+}
+
+#review {
+    padding-top: 57px;
+    padding-left: 17px;
+    letter-spacing: 3px;
+
+
+}
+
+.susan {
+    background-color: white;
+    height: 234px;
+    width: 312px;
+    border-radius: 10%;
+    position: relative;
+    left: 56px;
+    top: -226px;
+}
+
+.sandy {
+    background-color: white;
+    height: 234px;
+    width: 312px;
+    border-radius: 10%;
+    position: relative;
+    left: 476px;
+    top: -460px;
+
+}
+
+.jack {
+    background-color: white;
+    height: 234px;
+    width: 312px;
+    border-radius: 10%;
+    position: relative;
+    left: 896px;
+    top: -694px;
+}
+
+#boss {
+    background-image: linear-gradient(#F75B31, #FCAF7F);
+    border-bottom-left-radius: 31%;
+    border-bottom-right-radius: 31%;
+    height: 41px;
+    width: 312px;
+    position: relative;
+    top: 91px;
+}
+
+#ceo {
+    background-image: linear-gradient(#F75B31, #FCAF7F);
+    border-bottom-left-radius: 31%;
+    border-bottom-right-radius: 31%;
+    height: 41px;
+    width: 312px;
+    position: relative;
+    top: 91px;
+}
+
+#partner {
+    background-image: linear-gradient(#F75B31, #FCAF7F);
+    border-bottom-left-radius: 31%;
+    border-bottom-right-radius: 31%;
+    height: 41px;
+    width: 312px;
+    position: relative;
+    top: 91px;
+}
+
+#image1 {
+    background-image: url(./images/avatar/portrait-young-beautiful-woman-gesticulating.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: 40px 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 29px;
+
+}
+
+#image2 {
+    background-image: url(./images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: 40px 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 29px;
+}
+
+#image3 {
+    background-image: url(./images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend-man-with-heavy-beard-stands-with-arms-crossed-dressed-red-t-shirt-isolated-blue.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: 40px 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 29px;
+}
+
+#name1 {
+    position: relative;
+    left: 52px;
+    top: 11px;
+    width: 100px;
+    color: white;
+
+}
+
+#name2 {
+    position: relative;
+    left: 52px;
+    top: 11px;
+    width: 100px;
+    color: white;
+
+}
+
+#name3 {
+    position: relative;
+    left: 52px;
+    top: 11px;
+    width: 100px;
+    color: white;
+
+}
+
+#dis1 {
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#dis2 {
+    word-spacing: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#dis3 {
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.face {
+    position: relative;
+    top: 331px;
+    left: 494px;
+    letter-spacing: 2px;
+}
+
+#blue {
+    background-color: blue;
+    color: antiquewhite;
+    width: 100px;
+    height: 30px;
+    border-radius: 57%;
+    position: relative;
+    top: 308px;
+    left: 662px;
+    letter-spacing: 2px;
+
+}
+
+#blue:hover {
+    background-color: rgba(0, 0, 255, 0.479);
+}
+
+.footer {
+    position: relative;
+    top: 969px;
+    left: 85px;
+}
+
+.ask {
+    color: #98CAB8;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.info {
+    background-color: #a39f9f;
+    height: 421px;
+    width: 588px;
+    position: relative;
+    top: 26px;
+    left: 10px;
+    border-radius: 3%;
+}
+
+.form {
+    padding: 23px;
+    line-height: 33px;
+}
+
+.form label {
+    padding: 12px;
+}
+
+#send {
+    height: 31px;
+    width: 77px;
+    background-color: #F75B31;
+}
+
+#send:hover {
+    background-color: #fa2e00;
+}
+
+.bg {
+    background-color: #F75128;
+    height: 421px;
+    width: 588px;
+    position: relative;
+    top: -395px;
+    left: 635px;
+    border-radius: 3%;
+}
+
+#yellow {
+    background-color: #FFD84F;
+    height: 407px;
+    width: 588px;
+    position: relative;
+    top: -802px;
+    left: 635px;
+    border-radius: 3%;
+}
+
+#store {
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+#address {
+    color: whitesmoke;
+    position: relative;
+    left: 45px;
+    top: 16px;
+}
+
+.fa-location-dot {
+    color: red;
+
+}
+
+#contact {
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 21px;
+}
+
+#phone {
+    color: whitesmoke;
+    position: relative;
+    left: 59px;
+    top: 21px;
+}
+
+#mail {
+    color: whitesmoke;
+    position: relative;
+    left: 60px;
+    top: 7px;
+}
+
+.map {
+    border-radius: 10%;
+    position: relative;
+    top: 10px;
+    left: 48px;
+}
+
+.space {
+    padding: 10px;
+}
+
+.border {
+    background-image: url(./images/Capture.PNG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 260px;
+    position: relative;
+    top: 233px;
+
+}
+
+.mainfooter {
+    height: 210px;
+    width: 100%;
+    background-color: #36363E;
+    position: relative;
+    top: 233px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.first {
+    color: white;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+
+.second {
+    color: white;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+
+.third {
+    color: white;
+    line-height: 37px;
+    letter-spacing: 1px;
+
+}
+
+.social {
+    position: relative;
+    top: 180px;
+    left: 671px;
+    font-size: 27px;
+    letter-spacing: 16px;
+}
+
+.fa-twitter {
+    color: blue;
+}
+
+.fa-facebook {
+    color: darkblue;
+}
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-envelope {
+    color: red;
+}
+
+.fa-phone {
+    color: red;
+}
